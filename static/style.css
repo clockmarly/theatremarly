@@ -17,7 +17,7 @@ main {
 
 footer {
     flex: 0 0 auto;
-    margin-top: 40px;
+    margin-top: 150px;
 }
 
 * {
@@ -69,7 +69,6 @@ span {
 
 .top {
     display: flex;
-
 }
 
 .menu {
@@ -84,6 +83,12 @@ span {
 
 li.active {
     background-color: rgb(14, 27, 204);
+}
+
+.vaka {
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
 }
 
 .menu ul {
@@ -111,6 +116,36 @@ li.active {
 .price {
     width: 230px;
     margin: 0 auto;
+}
+
+.dolz li {
+    margin-left: 25px;
+}
+
+.dolz h2 {
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.dolz p {
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.dolz {
+    font-size: 20px;
+}
+
+.dolz h3 {
+    font-style: italic;
+    margin-top: 25px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.dolz span {
+    text-align: center;
 }
 
 .price h3 {
@@ -150,6 +185,14 @@ li.active {
     text-align: center;
     font-size: 35px;
     font-style: italic;
+}
+
+.adress {
+    font-style: italic;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .imglk {
