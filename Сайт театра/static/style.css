@@ -1,0 +1,280 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url("fon.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% auto;
+    background-color: black;
+    font-size: 15px;
+    color: azure;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex: 0 0 auto;
+    margin-top: 150px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: azure;
+    box-sizing: border-box;
+}
+
+.text-block {
+    margin: 0 30px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.745);
+}
+
+span {
+    font-style: italic;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.karta {
+    margin: 0 auto;
+    width: 400px;
+    background-color: rgba(6, 6, 26, 0.473);
+    padding: 15px;
+}
+
+.karta h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.karta p {
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+
+.karta a {
+    display: inline-block;
+    color: azure;
+    background-color: green;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
+.top {
+    display: flex;
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    background-color: rgba(67, 101, 114, 0.747);
+    align-self: flex-start;
+    border: 2px solid black;
+}
+
+li.active {
+    background-color: rgb(14, 27, 204);
+}
+
+.vaka {
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.menu ul {
+    justify-content: flex-start;
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+}
+
+.menu li {
+    padding: 10px;
+    border-right: 2px solid black;
+}
+
+.table-price {
+    border: 5px solid white;
+    border-collapse: collapse;
+}
+
+.table-price td {
+    font-size: 35px;
+    border: 2px solid white;
+}
+
+.price {
+    width: 230px;
+    margin: 0 auto;
+}
+
+.dolz li {
+    margin-left: 25px;
+}
+
+.dolz h2 {
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.dolz p {
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.dolz {
+    font-size: 20px;
+}
+
+.dolz h3 {
+    font-style: italic;
+    margin-top: 25px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.dolz span {
+    text-align: center;
+}
+
+.price h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.menu a {
+    font-size: 25px;
+}
+
+.menu li {
+    font-size: 25px;
+}
+
+.oteatre {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.title {
+    text-align: center;
+}
+
+.cont {
+    margin-bottom: 25px;
+}
+
+.contacts {
+    text-align: center;
+    font-size: 20px;
+}
+
+.rasp h2 {
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.adress {
+    font-style: italic;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.imglk {
+    height: 100%;
+    width: auto;
+}
+
+.imagewrapper {
+    height: 35px;
+    padding: 0 5px;
+}
+
+.lk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    border-left: 2px solid black;
+}
+
+.lkactive {
+    background-color: rgb(14, 27, 204);
+}
+
+.last {
+    justify-self: end;
+}
+
+.rasp {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.bilet {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 85%;
+    background-color: rgba(7, 15, 24, 0.582);
+    padding: 25px;
+}
+
+.bilet h3 {
+    display: inline;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.leftside,
+.centerside,
+.rightside {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.rightside {
+    justify-content: end;
+}
+
+.centerside {
+    flex-direction: column;
+}
+
+.zakaz {
+    text-align: center;
+}
+
+.bilet p {
+    font-size: 30px;
+}
+
+.bilet p+.bilet p {
+    margin-top: 20px;
+}
+
+.bilet a {
+    display: inline-block;
+    height: auto;
+    color: azure;
+    background-color: green;
+    padding: 10px 15px;
+    font-size: 25px;
+}
